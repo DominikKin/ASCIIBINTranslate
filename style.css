@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000080;
+  font-family: "VT323", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffff00;
+  height: 100vh;
+  overflow: scroll;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  font-family: "VT323", monospace;
+  /* margin-top: 10px; */
+  background-color: #000080;
+
+  border-radius: 10px;
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1); */
+  padding: 20px 20px;
+  text-align: center;
+  max-width: 100%;
+  width: 1600px;
+}
+
+h3 {
+  margin: 0;
+  opacity: 0.5;
+  letter-spacing: 2px;
+}
+
+.container-translate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #000080;
+
+  border-radius: 10px;
+
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1); */
+  padding: 10px 20px;
+  text-align: center;
+  max-width: 100%;
+  width: 1600px;
+  font-size: 24px;
+}
+.inner {
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  text-align: left;
+  max-width: 100%;
+  width: 700px;
+  height: 500px;
+}
+
+.inner-text {
+  height: 90%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+  border: 2px solid #ffff00;
+}
+#input {
+  padding: 10px;
+  width: 1500px;
+  height: 300px;
+  font-size: 24px;
+  font-family: "VT323", monospace;
+  background: none;
+  color: #ffff00;
+}
+h2 {
+  text-align: center;
+}
+
+textarea {
+  border-color: #ffff00;
+  outline-color: #ffff00;
+  
+}
+
+button {
+  border: none;
+  color: #ffff00;
+  background-color: #0000ff;
+  padding: 10px 20px;
+  font-family: "VT323", monospace;
+  font-size: 24px;
+  border-radius: 6px;
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 10px;
+}

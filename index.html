@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ASCII and Binary Translator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>TYPE IN SOME STUFF</h2>
+      <button id="reset">RESET</button>
+      <textarea
+        type="text"
+        id="input"
+        class="form-control form-control-lg"
+      ></textarea>
+    </div>
+    <div class="container-translate">
+      <div class="inner">
+        <h2 id="binary-title">Binary</h2>
+        <div class="inner-text">
+          <p id="binary"></p>
+        </div>
+      </div>
+      <div class="inner">
+        <h2 id="ascii-title">ASCII</h2>
+        <div class="inner-text">
+          <p id="ascii"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
